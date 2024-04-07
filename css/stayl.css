@@ -29,10 +29,17 @@ li,
   background-color: #fff;
   padding: 32px 40px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 165px 120px 165px;
+}
+.container1 {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -49,5 +56,36 @@ li,
 .job__button-div button {
   border: none;
   background-color: #e9f3f3;
-  padding: 4px 10px;
+  padding: 5px 10px;
+  height: 30px;
+}
+
+@media (min-width: 1430px) {
+  .job__itam {
+    width: 1100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .job__itam {
+    width: 1100px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .job__itam {
+    width: 1100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .job__itam {
+    width: 1100px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .job__itam {
+    width: 1100px;
+  }
 }
